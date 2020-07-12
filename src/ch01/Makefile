@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall
 CC=gcc
 
-OBJECT = dogs
+OBJECT = dogs concrete
 
 all : $(OBJECT)
 
