@@ -2,7 +2,7 @@ CFLAGS=-g -Og -Wall
 CC=gcc
 
 OBJECT = first fathm_ft two_func nogood stillbad weeks_year ab_stat xy_stat print_name print_name_address \
-	age2days
+	age2days func
 
 all : $(OBJECT)
 
