@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall
 CC=gcc
 
-OBJECT = first fathm_ft
+OBJECT = first fathm_ft two_func
 
 all : $(OBJECT)
 
