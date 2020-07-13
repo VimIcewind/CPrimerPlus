@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall
 CC=gcc
 
-OBJECT = first
+OBJECT = first fathm_ft
 
 all : $(OBJECT)
 
