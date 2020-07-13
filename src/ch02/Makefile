@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall
 CC=gcc
 
-OBJECT = first fathm_ft two_func nogood stillbad weeks_year ab_stat xy_stat
+OBJECT = first fathm_ft two_func nogood stillbad weeks_year ab_stat xy_stat print_name
 
 all : $(OBJECT)
 
