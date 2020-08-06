@@ -7,9 +7,9 @@ OBJECT = first fathm_ft two_func nogood stillbad weeks_year ab_stat xy_stat prin
 all : $(OBJECT)
 
 .c.s :
-	$(CC) $(CFLAGS) -S $*.cpp
+	$(CC) $(CFLAGS) -S $*.c
 .c.o :
-	$(CC) $(CFLAGS) -c $*.cpp
+	$(CC) $(CFLAGS) -c $*.c
 
 clean :
 	rm -rf $(OBJECT) *.S *.s *.o
