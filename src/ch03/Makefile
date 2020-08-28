@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall
 CC=gcc
 
-OBJECT = platinum
+OBJECT = platinum print1
 
 all : $(OBJECT)
 
