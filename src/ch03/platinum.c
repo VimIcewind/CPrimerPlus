@@ -17,5 +17,8 @@ int main(void)
 	printf("You are easily worth that! If platinum prices drop,\n");
 	printf("eat more to maintain your value.\n");
 
+	getchar();
+	getchar();
+
 	return 0;
 }
