@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall
 CC=gcc
 
-OBJECT = platinum print1 bases toobig print2 charcode
+OBJECT = platinum print1 bases toobig print2 charcode bool
 
 all : $(OBJECT)
 
