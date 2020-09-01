@@ -1,7 +1,7 @@
 /* bases.c -- 以十进制、八进制、十六进制打印十进制数100 */
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+int main(void)
 {
 	int x = 100;
 

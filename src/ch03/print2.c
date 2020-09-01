@@ -1,7 +1,7 @@
 /* print2.c -- 更多printf()特性 */
 #include <stdio.h>
 
-int main(int argc, char *argv)
+int main(void)
 {
 	unsigned int un = 3000000000; /* int 为32位和 short 为16位的系统 */
 	short end = 200;

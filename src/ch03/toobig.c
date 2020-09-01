@@ -1,7 +1,7 @@
 /* toobig.c -- 超出系统允许最大的int值 */
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+int main(void)
 {
 	int i = 2147483647;
 	unsigned int j = 4294967295;
