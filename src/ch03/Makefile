@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = platinum print1 bases toobig print2 charcode bool altnames showf_pt
+OBJECT = platinum print1 bases toobig print2 charcode bool altnames showf_pt floaterr
 
 all : $(OBJECT)
 
