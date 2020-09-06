@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = talkback
+OBJECT = talkback praise1
 
 all : $(OBJECT)
 
