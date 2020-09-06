@@ -12,11 +12,11 @@ int main(void)
 	printf("What's your name? ");
 	scanf("%s", name);
 	printf("Hello, %s. %s\n", name, PRAISE);
-	printf("Your name of %I64u letters occupies %I64u memory cells.\n",
-	       strlen(name), sizeof name);
-	printf("The phrase of praise has %I64u letters ",
-	       strlen(PRAISE));
-	printf("and occupies %I64u memory cells.\n", sizeof PRAISE);
+	printf("Your name of %lu letters occupies %lu memory cells.\n",
+			strlen(name), sizeof name);
+	printf("The phrase of praise has %lu letters ",
+			strlen(PRAISE));
+	printf("and occupies %lu memory cells.\n", sizeof PRAISE);
 
 
 	return 0;
