@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = talkback praise1 praise2 pizza defines
+OBJECT = talkback praise1 praise2 pizza defines printout
 
 all : $(OBJECT)
 
