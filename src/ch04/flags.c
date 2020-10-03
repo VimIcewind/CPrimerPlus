@@ -1,3 +1,4 @@
+/* flags.c -- 演示一些格式标记 */
 #include <stdio.h>
 
 int main(void)

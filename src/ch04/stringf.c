@@ -1,3 +1,4 @@
+/* stringf.c -- 字符串格式 */
 #include <stdio.h>
 
 #define BLURB "Authentic imitation!"
