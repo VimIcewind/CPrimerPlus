@@ -7,7 +7,8 @@ int main(void)
 	int rv;
 
 	rv = printf("%d F is water's boiling point.\n", bph2o);
-	printf("The printf() function printed %d characters.\n", rv);
+	printf("The printf() function printed %d characters.\n",
+	       rv);
 
 	return 0;
 }
