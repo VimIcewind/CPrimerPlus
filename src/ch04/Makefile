@@ -2,7 +2,7 @@ CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
 OBJECT = talkback praise1 praise2 pizza defines printout pc width floats flags \
-	 stringf intconv floatcnv prntval longstrg
+	 stringf intconv floatcnv prntval longstrg input
 
 all : $(OBJECT)
 
