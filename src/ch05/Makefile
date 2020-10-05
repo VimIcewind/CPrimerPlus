@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = shoes1
+OBJECT = shoes1 shoes2
 
 all : $(OBJECT)
 
