@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = shoes1 shoes2 golf squares wheat
+OBJECT = shoes1 shoes2 golf squares wheat divide
 
 all : $(OBJECT)
 
