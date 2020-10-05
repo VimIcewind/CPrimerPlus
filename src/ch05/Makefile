@@ -1,7 +1,8 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = shoes1 shoes2 golf squares wheat divide rules sizeof min_sec
+OBJECT = shoes1 shoes2 golf squares wheat divide rules sizeof min_sec add_one \
+      post_pre
 
 all : $(OBJECT)
 
