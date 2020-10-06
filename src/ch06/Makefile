@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = summing
+OBJECT = summing when
 
 all : $(OBJECT)
 
