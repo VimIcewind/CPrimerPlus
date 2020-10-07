@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = summing when while1 while2
+OBJECT = summing when while1 while2 cmpflt
 
 all : $(OBJECT)
 
