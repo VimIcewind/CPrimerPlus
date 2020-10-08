@@ -1,7 +1,8 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = summing when while1 while2 cmpflt t_and_f truth trouble boolean
+OBJECT = summing when while1 while2 cmpflt t_and_f truth trouble boolean \
+        sweetie1
 
 all : $(OBJECT)
 
