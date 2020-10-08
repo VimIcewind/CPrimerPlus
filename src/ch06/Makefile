@@ -3,7 +3,7 @@ CC=gcc
 
 OBJECT = summing when while1 while2 cmpflt t_and_f truth trouble boolean \
         sweetie1 sweetie2 for_cube for_down for_13s for_char for_geo for_wild \
-        for_nono for_show postage zeno do_while
+        for_nono for_show postage zeno do_while entry
 
 all : $(OBJECT)
 
