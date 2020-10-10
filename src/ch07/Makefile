@@ -1,7 +1,8 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = colddays cypher1 cypher2 electric divisors chcount wordcnt paint
+OBJECT = colddays cypher1 cypher2 electric divisors chcount wordcnt paint \
+        skippart break
 
 all : $(OBJECT)
 
