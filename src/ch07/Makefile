@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = colddays cypher1
+OBJECT = colddays cypher1 cypher2 electric
 
 all : $(OBJECT)
 
