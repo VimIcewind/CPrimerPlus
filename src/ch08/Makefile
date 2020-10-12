@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = echo echo_eof file_eof guess showchar1 showchar2 checking
+OBJECT = echo echo_eof file_eof guess showchar1 showchar2 checking menuette
 
 all : $(OBJECT)
 
