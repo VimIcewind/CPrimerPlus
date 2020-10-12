@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = echo echo_eof
+OBJECT = echo echo_eof file_eof
 
 all : $(OBJECT)
 
