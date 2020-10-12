@@ -2,7 +2,7 @@ CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
 OBJECT = colddays cypher1 cypher2 electric divisors chcount wordcnt paint \
-        skippart break animals vowels
+        skippart break animals vowels weight
 
 all : $(OBJECT)
 
