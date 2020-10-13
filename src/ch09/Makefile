@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = lethead1 lethead2
+OBJECT = lethead1 lethead2 lesser
 
 all : $(OBJECT)
 
