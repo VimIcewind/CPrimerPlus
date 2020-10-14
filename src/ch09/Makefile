@@ -1,7 +1,8 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = lethead1 lethead2 lesser misuse proto recur factor binary usehotel
+OBJECT = lethead1 lethead2 lesser misuse proto recur factor binary usehotel \
+        loccheck
 
 all : $(OBJECT)
 
