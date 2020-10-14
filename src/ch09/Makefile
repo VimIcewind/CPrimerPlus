@@ -1,9 +1,12 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = lethead1 lethead2 lesser misuse proto recur factor binary
+OBJECT = lethead1 lethead2 lesser misuse proto recur factor binary usehotel
 
 all : $(OBJECT)
+
+usehotel : usehotel.c hotel.c hotel.h
+	$(CC) $(CFLAGS) -o usehotel usehotel.c hotel.c
 
 .c.s :
 	$(CC) $(CFLAGS) -S $*.c
