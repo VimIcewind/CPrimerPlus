@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = day_mon1
+OBJECT = day_mon1 day_mon2
 
 all : $(OBJECT)
 
