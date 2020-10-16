@@ -3,7 +3,7 @@ CC=gcc
 
 OBJECT = day_mon1 no_data some_data day_mon2 designate evens bounds rain \
         pnt_add day_mon3 sum_arr1 sum_arr2 order ptr_ops arf zippo1 zippo2 \
-        array2d vararr2d
+        array2d vararr2d flc
 
 all : $(OBJECT)
 
