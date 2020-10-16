@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = day_mon1 no_data some_data day_mon2 designate evens
+OBJECT = day_mon1 no_data some_data day_mon2 designate evens bounds
 
 all : $(OBJECT)
 
