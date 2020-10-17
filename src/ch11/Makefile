@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = strings1
+OBJECT = strings1 strptr
 
 all : $(OBJECT)
 
