@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = strings1 strptr addresses arrchar p_and_s getsputs
+OBJECT = strings1 strptr addresses arrchar p_and_s getsputs fgets1
 
 all : $(OBJECT)
 
