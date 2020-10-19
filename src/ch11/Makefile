@@ -3,7 +3,7 @@ CC=gcc
 
 OBJECT = strings1 strptr addresses arrchar p_and_s getsputs fgets1 fgets2 \
         fgets3 s_gets.o scan_str put_out nono put_put test_fit str_cat \
-        join_chk nogo compback quit_chk
+        join_chk nogo compback quit_chk starsrch
 
 all : $(OBJECT)
 
