@@ -2,35 +2,36 @@
 #include <stdio.h>
 #include <string.h>
 
-#define SIZE 81
-#define LIM 20
-#define HALT ""
+#define SIZE 81       /* 限制字符串长度，包括\0 */
+#define LIM 20        /* 可读入的最多行数 */
+#define HALT ""       /* 空字符串停止输入 */
 
-void stsrt(char *strings[], int num);
+void stsrt(char *strings[], int num);  /* 字符串排序函数 */
 char *s_gets(char *st, int n);
 
 int main(void)
 {
-	char input[LIM][SIZE];
-	char *ptstr[LIM];
-	int ct = 0;
-	int k;
+	char input[LIM][SIZE];    /* 储存输入的数组     */
+	char *ptstr[LIM];         /* 内含指针变量的数组 */
+	int ct = 0;               /* 输入计数           */
+	int k;                    /* 输出计数           */
 
 	printf("Input up to %d lines, and I will sort them.\n", LIM);
 	printf("To stop, press the Enter key at a line's start.\n");
 	while (ct < LIM && s_gets(input[ct], SIZE) != NULL
 	       && input[ct][0] != '\0') {
-		ptstr[ct] = input[ct];
+		ptstr[ct] = input[ct];    /* 字符串排序函数 */
 		ct++;
 	}
 	stsrt(ptstr, ct);
 	puts("\nHere's the sorted list:\n");
 	for (k = 0; k < ct; k++)
-		puts(ptstr[k]);
+		puts(ptstr[k]);           /* 排序后的指针 */
 
 	return 0;
 }
 
+/* 字符串-指针-排序函数 */
 void stsrt(char *strings[], int num)
 {
 	char *temp;
