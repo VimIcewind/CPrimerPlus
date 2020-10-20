@@ -8,6 +8,11 @@ OBJECT = strings1 strptr addresses arrchar p_and_s getsputs fgets1 fgets2 \
 
 all : $(OBJECT)
 
+s_gets.o : s_gets.c
+	$(CC) $(CFLAGS) -c s_gets.c
+strlen.o : strlen.c
+	$(CC) $(CFLAGS) -c strlen.c
+
 .c.s :
 	$(CC) $(CFLAGS) -S $*.c
 .c.o :
