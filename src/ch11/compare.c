@@ -1,10 +1,12 @@
 /* compare.c -- 该程序可以正常运行 */
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
-#define ANSWER "Grant"
+#define ANSWER "GRANT"
 #define SIZE 40
 
+void ToUpper(char *st);
 char *s_gets(char *st, int n);
 
 int main(void)
@@ -13,13 +15,23 @@ int main(void)
 
 	puts("Who is buried in Grant's tomb?");
 	s_gets(try, SIZE);
+	ToUpper(try);
 	while (strcmp(try, ANSWER) != 0) {
 		puts("No, that's wrong. Try again.");
 		s_gets(try, SIZE);
+		ToUpper(try);
 	}
 	puts("That's right!");
 
 	return 0;
+}
+
+void ToUpper(char *str)
+{
+	while (*str) {
+		*str = toupper(*str);
+		str++;
+	}
 }
 
 char *s_gets(char *st, int n)
