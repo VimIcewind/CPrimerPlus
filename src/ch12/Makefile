@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = hiding forc99 loc_stat
+OBJECT = hiding forc99 loc_stat global
 
 all : $(OBJECT)
 
