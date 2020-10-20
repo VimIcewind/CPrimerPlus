@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = hiding
+OBJECT = hiding forc99
 
 all : $(OBJECT)
 
