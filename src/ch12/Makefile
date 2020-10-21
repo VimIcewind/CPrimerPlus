@@ -1,7 +1,8 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = hiding forc99 loc_stat global parta r_drive0 r_drive1 manydice dyn_arr
+OBJECT = hiding forc99 loc_stat global parta r_drive0 r_drive1 manydice dyn_arr \
+        where
 
 all : $(OBJECT)
 
