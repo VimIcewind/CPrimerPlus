@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = hiding forc99 loc_stat global parta r_drive0 r_drive1
+OBJECT = hiding forc99 loc_stat global parta r_drive0 r_drive1 manydice
 
 all : $(OBJECT)
 
@@ -11,6 +11,8 @@ r_drive0 : r_drive0.c rand0.c
 	$(CC) $(CFLAGS) -o r_drive0 r_drive0.c rand0.c
 r_drive1 : r_drive1.c s_and_r.c
 	$(CC) $(CFLAGS) -o r_drive1 r_drive1.c s_and_r.c
+manydice : manydice.c diceroll.c diceroll.h
+	$(CC) $(CFLAGS) -o manydice manydice.c diceroll.c
 
 .c.s :
 	$(CC) $(CFLAGS) -S $*.c
