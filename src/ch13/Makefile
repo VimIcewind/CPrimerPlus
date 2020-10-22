@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = count
+OBJECT = count reducto addaword
 
 all : $(OBJECT)
 
