@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = count reducto addaword reverse append randbin
+OBJECT = count reducto addaword reverse append randbin e1
 
 all : $(OBJECT)
 
