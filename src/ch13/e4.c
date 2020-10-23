@@ -16,7 +16,7 @@ int main(int argc, const char *argv[])
 			exit(EXIT_FAILURE);
 		}
 	} else {
-		fprintf(stderr, "Usage: %s or %s [filename]\n", argv[0], argv[0]);
+		fprintf(stderr, "Usage: %s [filename]\n", argv[0]);
 		exit(EXIT_FAILURE);
 	}
 
