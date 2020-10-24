@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = book
+OBJECT = book manybook
 
 all : $(OBJECT)
 
