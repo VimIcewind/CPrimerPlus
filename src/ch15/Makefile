@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = binbit invert4
+OBJECT = binbit invert4 fields dualview
 
 all : $(OBJECT)
 
