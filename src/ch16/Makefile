@@ -1,9 +1,12 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = preproc mac_arg subst glue variadic
+OBJECT = preproc mac_arg subst glue variadic useheader
 
 all : $(OBJECT)
+
+useheader : useheader.c names_st.c names_st.h
+	$(CC) $(CFLAGS) -o useheader useheader.c names_st.c names_st.h
 
 .c.s :
 	$(CC) $(CFLAGS) -S $*.c
