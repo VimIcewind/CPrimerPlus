@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = preproc mac_arg subst glue variadic useheader ifdef doubincl
+OBJECT = preproc mac_arg subst glue variadic useheader ifdef doubincl predef
 
 all : $(OBJECT)
 
