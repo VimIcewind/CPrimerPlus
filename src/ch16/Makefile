@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = preproc mac_arg subst glue variadic useheader ifdef doubincl predef newish
+OBJECT = preproc mac_arg subst glue variadic useheader ifdef doubincl predef newish mytype
 
 all : $(OBJECT)
 
@@ -10,6 +10,8 @@ useheader : useheader.c names_st.c names_st.h
 
 doubincl : doubincl.c names.h
 	$(CC) $(CFLAGS) -o doubincl doubincl.c names.h
+mytype : mytype.c
+	clang -o mytype mytype.c
 
 .c.s :
 	$(CC) $(CFLAGS) -S $*.c
