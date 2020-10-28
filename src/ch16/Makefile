@@ -10,8 +10,6 @@ useheader : useheader.c names_st.c names_st.h
 
 doubincl : doubincl.c names.h
 	$(CC) $(CFLAGS) -o doubincl doubincl.c names.h
-mytype : mytype.c
-	clang -o mytype mytype.c
 
 .c.s :
 	$(CC) $(CFLAGS) -S $*.c
