@@ -2,7 +2,7 @@ CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
 OBJECT = preproc mac_arg subst glue variadic useheader ifdef doubincl predef \
-	newish mytype inline rect_pol generic byebye
+	newish mytype inline rect_pol generic byebye qsorter
 
 all : $(OBJECT)
 
