@@ -2,7 +2,7 @@ CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
 OBJECT = preproc mac_arg subst glue variadic useheader ifdef doubincl predef \
-	newish mytype inline rect_pol
+	newish mytype inline rect_pol generic
 
 all : $(OBJECT)
 
@@ -13,6 +13,8 @@ doubincl : doubincl.c names.h
 	$(CC) $(CFLAGS) -o doubincl doubincl.c names.h
 rect_pol : rect_pol.c
 	$(CC) $(CFLAGS) -lm -o rect_pol rect_pol.c
+generic : generic.c
+	$(CC) $(CFLAGS) -lm -o generic generic.c
 
 .c.s :
 	$(CC) $(CFLAGS) -S $*.c
