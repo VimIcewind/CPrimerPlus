@@ -3,7 +3,7 @@ CC=gcc
 
 OBJECT = preproc mac_arg subst glue variadic useheader ifdef doubincl predef \
 	newish mytype inline rect_pol generic byebye qsorter assert statasrt \
-	mems varargs prtval pnva prdate
+	mems varargs prtval pnva prdate generic_val
 
 all : $(OBJECT)
 
