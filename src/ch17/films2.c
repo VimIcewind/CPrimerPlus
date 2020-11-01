@@ -51,10 +51,10 @@ int main(void)
 	/* 完成任务，释放已分配的内存 */
 	current = head;
 	while (current != NULL) {
+		current = head;
 		head = current->next;
 		printf("current is at %p\n", current);
 		free(current);
-		current = head;
 	}
 
 	printf("Bye!\n");
