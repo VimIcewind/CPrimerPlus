@@ -60,7 +60,7 @@ bool AddItem(Item item, List *plist)
 
 	pnew = (Node *) malloc(sizeof(Node));
 	if (pnew == NULL)
-		return false;  /* 失败时推出函数 */
+		return false;  /* 失败时退出函数 */
 
 	CopyToNode(item, pnew);
 	pnew->next = NULL;
@@ -76,7 +76,7 @@ bool AddItem(Item item, List *plist)
 }
 
 /* 访问每个节点并执行pfun指向的函数 */
-void Traverse(const List *plist, void(*pfun)(Item item))
+void Traverse(const List *plist, void (*pfun)(Item item))
 {
 	Node *pnode = *plist;  /* 设置链表的开始 */
 
