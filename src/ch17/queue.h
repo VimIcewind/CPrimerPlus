@@ -4,8 +4,12 @@
 #include <stdbool.h>  /* C99 特性 */
 
 // 在这里插入Item类型的定义，例如
-typedef int Item;    // 用于 use_q.c
+// typedef int Item;    // 用于 use_q.c
 // 或者 typedef struct item {int, gumption; int charisma;} Item;
+typedef struct item {
+	long arrive;		// 一位顾客加入队列的时间
+	int processtime;	// 该顾客咨询时花费的时间
+} Item;
 
 #define MAXQUEUE 10
 

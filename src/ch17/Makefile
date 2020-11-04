@@ -1,7 +1,7 @@
 CFLAGS=-g -Og -Wall -std=c11
 CC=gcc
 
-OBJECT = films1 films2 films3 use_q
+OBJECT = films1 films2 films3 use_q mall
 
 all : $(OBJECT)
 
@@ -10,6 +10,9 @@ films3 : films3.c list.c list.h
 
 use_q : use_q.c queue.c queue.h
 	$(CC) $(CFLAGS) -o use_q use_q.c queue.c
+
+mall : mall.c queue.c queue.h
+	$(CC) $(CFLAGS) -o mall mall.c queue.c
 
 .c.s :
 	$(CC) $(CFLAGS) -S $*.c
