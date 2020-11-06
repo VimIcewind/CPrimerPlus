@@ -74,7 +74,7 @@ void addpet(Tree *pt)
 {
 	Item temp;
 
-	if(TreeIsFull(pt))
+	if (TreeIsFull(pt))
 		puts("No room in the club!");
 	else {
 		puts("Please enter name of pet:");
